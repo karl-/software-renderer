@@ -1,5 +1,5 @@
 #!/bin/sh
 
-gcc src/* -I lib/ -o bin/renderer
+gcc src/main.c -I lib/ -o bin/renderer
 ./bin/renderer
 open bin/test.tga
